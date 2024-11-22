@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 
 // Si el usuario ya ha iniciado sesión, redirigir según su rol
 if (isset($_SESSION['login']) && $_SESSION['login']['permitido']) {
